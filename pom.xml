@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jsr381.example</groupId>
-    <artifactId>HotDogNotHotDog</artifactId>
+    <artifactId>animalClassifier</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

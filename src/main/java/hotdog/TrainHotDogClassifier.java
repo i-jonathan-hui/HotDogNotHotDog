@@ -37,7 +37,7 @@ public class TrainHotDogClassifier {
 							.maxError(0.03f) // error level to stop the training (maximum acceptable error)
 							.maxEpochs(1000) // maximum number of training iterations (epochs)
 							.learningRate(0.01f)// amount of error to use for adjusting internal parameters in each training iteration
-							.exportModel(Paths.get("hotdog.dnet")) // name of the file to save trained model
+							.exportModel(Paths.get("animals.dnet")) // name of the file to save trained model
 							.build();
 
 		} catch (ModelCreationException e) { // if something goes wrong an exception is thrown
